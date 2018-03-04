@@ -7,7 +7,7 @@ $(manuscript).pdf: $(manuscript).tex
 	pdflatex $(latexopt) $(manuscript).tex
 
 clean :
-	rm -f *.aux *.log *.bbl *.lof *.lot *.blg *.out *.toc *.run.xml *.bcf
+	rm -f *.log
 	rm -f text/*.aux
 	rm $(manuscript).pdf
 
