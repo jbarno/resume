@@ -12,18 +12,23 @@
 \parsep=0in
 
 \newenvironment{list1}{
-  \begin{list}{\ding{113}}{%
+  \begin{list}{$\enumerate$}{
       \setlength{\itemsep}{0in}
       \setlength{\parsep}{0in} \setlength{\parskip}{0in}
       \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
       \setlength{\leftmargin}{0.17in}}}{\end{list}}
 \newenvironment{list2}{
-  \begin{list}{$\bullet$}{%
+  \begin{list}{$\bullet$}{
       \setlength{\itemsep}{0in}
       \setlength{\parsep}{0in} \setlength{\parskip}{0in}
       \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
       \setlength{\leftmargin}{0.2in}}}{\end{list}}
-
+\newenvironment{list3}{
+  \begin{list}{$\description$}{
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0in}}}{\end{list}}
 
 \begin{document}
 
@@ -44,14 +49,8 @@
 
 
 \section{\sc Education}
-{\bf University of Michigan}, Ann Arbor\hfill 09/2010 - 06/2013\\
+{\bf University of Michigan}, Ann Arbor, MI\hfill {\bf Aug 10  - Dec 13}\\
     {\em B.S.E. Computer Science}
-\begin{list1}
-\item[] {\bf \small Coursework:} Nuclear Reactor Design, Radiation Detection 
-                                 and Measurement, Nuclear Reactor Kinetics,
-                                 General Radiation Laboratory, Nuclear Physics,
-                                 Quantum Mechanics, C++ for Sci/Eng
-\end{list1}
 
 
 \section{\sc Employment}
@@ -64,7 +63,9 @@
   \end{list2}
 
 \section{\sc Honors and Awards} 
-// TODO should be a list
+\begin{list3}
+  \item Instructor \hfill {\bf May - June, 2002}\\
+\end{list3}
 Nuclear Science and Security Consortium Fellow \hfill 2014 - 2016 \\
 American Nuclear Society Graduate Scholarship \hfill 2014 \\
 UC Berkeley Outstanding GSI Award \hfill 2012 \\
@@ -76,7 +77,6 @@ American Nuclear Society National Scholarship Recipient \hfill 2007 - 2010 \\
 {\em SUBJOB} \hfill {\bf SUBJOB.DATE}\\
 SUBJOB.DESC
 
-{\em Instructor} \hfill {\bf May - June, 2002}\\
 
 \begin{verbatim}http://www.nist.gov/speech/publications/tw00/html/abstract.htm#cp1-50\end{verbatim}
 
