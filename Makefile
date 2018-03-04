@@ -7,7 +7,6 @@ $(manuscript).pdf: $(manuscript).tex
 	nl $(manuscript).log > $(manuscript).log
 
 clean :
-	rm -f *.log
 	rm -f text/*.aux
 	rm $(manuscript).pdf
 
