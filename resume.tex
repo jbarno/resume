@@ -67,7 +67,7 @@ now have the ability to conditionally execute tests which require authorization 
   \item Working within the gdcapi for both “unit” and end to end tests. Refactored the gdcapi unit tests to to
 maintain consistent code coverage with reduced execution time (on TravisCI from ~30 min to ~8 min).
 This allows developers to move faster with the confidence that their changes did not break anything (that
-we’re testing). Automated 60\\% (12/20) of the API regression tests by translating curl calls to simple
+we’re testing). Automated (12/20) of the API regression tests by translating curl calls to simple
 python tests utilizing the requests library. These tests run daily, and will free up one manual tester for
 about half a day per release cycle. Identified pain points within the gdcapi around BAM slicing requests
 producing unnecessary crosstalk through consul to other gdcapi machines.
