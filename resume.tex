@@ -57,10 +57,22 @@
     {\bf U Chicago, Center for Data Intensive Science}, Chicago, IL\\
     {\em Software Engineer in Test Genomic Data Commons} \hfill {\bf  June 17 - Present}\\
 
-  \begin{list2}
-    \item Test
-    \item Other test
-  \end{list2}
+\begin{enumerate}
+  \item Making the autoqa repository into a functional service. We can now deploy autoqa as a service within
+a cluster to validate that particular cluster. We are able to now run chrome headlessly both locally and on
+an autoqa service. Additionally, these tests are able to be scheduled at regular intervals. Before this was
+a manual process to run autoqa locally while connected to a VPN to validate that given environment. We
+now have the ability to conditionally execute tests which require authorization tokens. Finally, autoqa had
+26 runnable tests when I started, it is now 239. At least 150 of those were written by me.
+  \item Working within the gdcapi for both “unit” and end to end tests. Refactored the gdcapi unit tests to to
+maintain consistent code coverage with reduced execution time (on TravisCI from ~30 min to ~8 min).
+This allows developers to move faster with the confidence that their changes did not break anything (that
+we’re testing). Automated 60\\% (12/20) of the API regression tests by translating curl calls to simple
+python tests utilizing the requests library. These tests run daily, and will free up one manual tester for
+about half a day per release cycle. Identified pain points within the gdcapi around BAM slicing requests
+producing unnecessary crosstalk through consul to other gdcapi machines.
+\end{enumerate}
+
     {\bf Tophatter Inc}, Palo Alto, CA\\
     {\em Developer} \hfill {\bf June 2016 - Feb 2018}\\
   \begin{list2}
@@ -136,8 +148,6 @@ Javascript/ Web Developement (Proficient)
 Ruby (self-taught)
 Kotlin (currently learning)
 Agile Development/Scrum Master
-
-
 
 \end{resume}
 \end{document}
