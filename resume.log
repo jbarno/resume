@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.3)  4 MAR 2018 21:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.3)  4 MAR 2018 21:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -310,14 +310,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--90
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
+[1
 
+{/usr/local/texlive/2017basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-[1
 
-{/usr/local/texlive/2017basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
@@ -353,11 +353,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 203.
 Here is how much of TeX's memory you used:
  5020 strings out of 494437
  74588 string characters out of 6166646
- 168712 words of memory out of 5000000
+ 169712 words of memory out of 5000000
  8375 multiletter control sequences out of 15000+600000
  5368 words of font info for 20 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 29i,9n,21p,215b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,9n,21p,215b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/
@@ -367,7 +367,7 @@ msfonts/cm/cmr7.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmtt10.pfb>
-Output written on resume.pdf (2 pages, 111753 bytes).
+Output written on resume.pdf (2 pages, 111911 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
