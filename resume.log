@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.3)  4 MAR 2018 18:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.3)  4 MAR 2018 19:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -231,6 +231,11 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no  in font cmr10!
 
+Underfull \hbox (badness 10000) in paragraph at lines 69--76
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
@@ -245,6 +250,11 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
@@ -253,14 +263,19 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
 [1
 
 {/usr/local/texlive/2017basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
@@ -271,31 +286,31 @@ Missing character: There is no â in font cmti10!
 Missing character: There is no € in font cmti10!
 Missing character: There is no ™ in font cmti10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--174
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--180
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 181--183
+Underfull \hbox (badness 10000) in paragraph at lines 186--188
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
 [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 186.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 191.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
  ) 
 Here is how much of TeX's memory you used:
  4908 strings out of 494437
@@ -314,7 +329,7 @@ c/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on resume.pdf (3 pages, 119180 bytes).
+Output written on resume.pdf (3 pages, 118972 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
