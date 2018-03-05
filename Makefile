@@ -2,9 +2,12 @@ manuscript = resume
 latexopt = -file-line-error -halt-on-error
 
 # Build the PDF of the lab report from the source files
+#
 $(manuscript).pdf: $(manuscript).tex
 	pdflatex $(latexopt) $(manuscript).tex
-	nl $(manuscript).log > $(manuscript).log
+
+log : ${manuscript}.log
+	nl -b t $(manuscript).log > ${manuscript}.log
 
 clean :
 	rm -f text/*.aux
