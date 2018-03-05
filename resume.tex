@@ -1,10 +1,9 @@
 \documentclass[margin,line]{res}
 
-% For links
 \usepackage{hyperref}
 \hypersetup{colorlinks=True, urlcolor=cyan}
 
-
+\usepackage{multicol}
 \oddsidemargin -.5in
 \evensidemargin -.5in
 \textwidth=6.0in
@@ -16,7 +15,7 @@
       \setlength{\itemsep}{0in}
       \setlength{\parsep}{0in} \setlength{\parskip}{0in}
       \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
-      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+      \setlength{\leftmargin}{-0.3in}}}{\end{list}}
 \newenvironment{list2}{
   \begin{list}{$\bullet$}{
       \setlength{\itemsep}{0in}
@@ -42,68 +41,81 @@
 
 \section{\sc Contact Information}
 \begin{tabular}{@{}p{3in}p{4in}}
-{\bf Phone:}   (847) 946 - 4425\\
-{\bf E-mail:}  {\tt jbarno54@gmail.com} \\
+{\bf Phone:  } (847) 946 - 4425\\
+{\bf E-mail: } {\tt jbarno54@gmail.com} \\
 {\bf Website:} \url{https://github.com/jbarno} \\
 \end{tabular}
 
 
 \section{\sc Education}
-  {\bf University of Michigan}, Ann Arbor, MI \hfill {\bf Aug 10  - Dec 13}\\
+  {\bf University of Michigan}, Ann Arbor, MI \hfill {\bf Aug 10 - Dec 13}\\
   {\em B.S.E. Computer Science}
 
 
 \section{\sc Employment}
-  {\bf U Chicago, Center for Data Intensive Science}, Chicago, IL\\
-  {\em Software Engineer in Test Genomic Data Commons} \hfill {\bf  June 17 - Present}
+
+\begin{list1}
+
+\item [] {\bf University of Chicago, Center for Data Intensive Science}, Chicago, IL\\
+\item [] {\em Software Engineer in Test Genomic Data Commons} \hfill {\bf June 17 - Present}
 
 \begin{enumerate}
-  \item Making the auto\_qa repository into a functional service. We can now deploy auto\_qa as a service within
+\item Making the auto\_qa repository into a functional service. We can now deploy auto\_qa as a service within
 a cluster to validate that particular cluster. We are able to now run chrome headlessly both locally and on
 an auto\_qa service. Additionally, these tests are able to be scheduled at regular intervals. Before this was
 a manual process to run auto\_qa locally while connected to a VPN to validate that given environment. We
 now have the ability to conditionally execute tests which require authorization tokens. Finally, auto\_qa had
 26 runnable tests when I started, it is now 239. At least 150 of those were written by me.
-  \item Working within the gdcapi for both “unit” and end to end tests. Refactored the gdcapi unit tests to to
+\item Working within the gdcapi for both “unit” and end to end tests. Refactored the gdcapi unit tests to to
 maintain consistent code coverage with reduced execution time (on TravisCI from ~30 min to ~8 min).
 This allows developers to move faster with the confidence that their changes did not break anything.
 Automated (12/20) of the API regression tests by translating curl calls to simple
 python tests utilizing the requests library. These tests run daily, and will free up one manual tester for
 about half a day per release cycle. Identified pain points within the gdcapi around BAM slicing requests
-producing unnecessary crosstalk through consul to other gdcapi machines.
+producing unnecessary crosstalk through consul to other gdcapi machines.\\
 \end{enumerate}
 
-  {\bf Tophatter Inc}, Palo Alto, CA\\
-  {\em Developer} \hfill {\bf June 2016 - Feb 2018}
+\item [] {\bf Tophatter Inc}, Palo Alto, CA\\
+\item [] {\em Developer} \hfill {\bf June 16 - Feb 18}
+
 \begin{list2}
-  \item  Upgraded Android application’s user interface to Google’s Material Design specifications.
-  \item  Orchestrated A/B tests to determine optimal user experience and fulfillment of Tophatter’s objectives.
-  \item  Learned Ruby to fix server-side bugs while also developing new features on the Android client.
-  \item  Extended the Android application internationally, specifically enabling multi-currency bidding.
-  \item  Libraries/Tools used while at Tophatter: databinding, crashlytics, eventBus, picasso, PubNub, FB and Google signup, and braintree payments.
+\item  Upgraded Android application’s user interface to Google’s Material Design specifications.
+\item  Orchestrated A/B tests to determine optimal user experience and fulfillment of Tophatter’s objectives.
+\item  Learned Ruby to fix server-side bugs while also developing new features on the Android client.
+\item  Extended the Android application internationally, specifically enabling multi-currency bidding.
+\item  Libraries/Tools used while at Tophatter: databinding, crashlytics, eventBus, picasso, PubNub, FB and Google signup, and braintree payments.\\
 \end{list2}
 
-  {\bf Ericsson Inc}, Santa Clara, CA\\
-  {\em Tester -> Developer} \hfill {\bf March 14 - June 16}
+\item [] {\bf Ericsson Inc}, Santa Clara, CA\\
+\item [] {\em Developer} \hfill {\bf June 15 - June 16}
+
 \begin{list2}
-  \item Maintained and enhanced the web app half of a multi-platform video streaming application (Similar to AT\&T U-Verse or Comcast Xfinity).
-  \item Augmented landing service, and multi-operator customization framework. Including enabling configurable Content-Security-Policy headers to better secure end users’ browser sessions.
-  \item Implemented automated tests using a selenium web driver in both C\# and javascript.
-  \item Scrum Master for multiple teams.
+\item Maintained and enhanced the web app half of a multi-platform video streaming application (Similar to AT\&T U-Verse or Comcast Xfinity).
+\item Augmented landing service, and multi-operator customization framework. Including enabling configurable Content-Security-Policy headers to better secure end users’ browser sessions.
 \end{list2}
 
-  {\bf Microsoft Inc}, Mountain View, CA\\
-  {\em SDET Intern} \hfill {\bf May 13 - July 13}
+\item [] {\em Tester} \hfill {\bf March 14 - June 15}
+
 \begin{list2}
-  \item During a twelve week internship collaborated with the Test Tools and Infrastructure team to revamp failing test case triage process. Worked extensively with Team Foundation Server APIs.
+\item Implemented automated tests using a selenium web driver in both C\# and javascript.
+\item Scrum Master for multiple teams.
 \end{list2}
 
-  {\bf Garmin Inc}, Novi, MI\\
-  {\em SDET Intern} \hfill {\bf April 12 - Aug 12}
+\item [] {\bf Microsoft Inc}, Mountain View, CA\\
+\item [] {\em SDET Intern} \hfill {\bf May 13 - July 13}
+
 \begin{list2}
-  \item Modernized the semi-truck instrument cluster, radio, and navigation tools. Worked extensively with the J1939 CAN networks of the vehicle. Including mimicking a CAN network using EEPod’s MyCanic.
+\item During a twelve week internship collaborated with the Test Tools and Infrastructure team to revamp failing test case triage process. Worked extensively with Team Foundation Server APIs.\\
 \end{list2}
 
+\item [] {\bf Garmin Inc}, Novi, MI\\
+\item [] {\em SDET Intern} \hfill {\bf April 12 - Aug 12}
+
+\begin{list2}
+\item Modernized the semi-truck instrument cluster, radio, and navigation tools. Worked extensively with the J1939 CAN networks of the vehicle. Including mimicking a CAN network using EEPod’s MyCanic.
+\end{list2}
+
+\end{list1}
 
 % \section{\sc Honors and Awards}
 % \begin{tabular}{@{}p{3in}p{4in}}
@@ -114,64 +126,77 @@ producing unnecessary crosstalk through consul to other gdcapi machines.
 
 \section{\sc Professional Experience}
 
-{\bf {Black Hat}}, {Las Vegas}\\
-{\em Student/Participant } \hfill {\bf Aug 14-15}\\
-Android Application Hacking
-Uses and Misuses of Cryptography
-Advanced Wi-Fi Penetration Testing
-0x7DF Mobile Application Bootcamp
+\begin{list1}
+\item [] {\bf Black Hat}, Las Vegas, NV\\
+\item [] {\em Student/Participant } \hfill {\bf Aug 14-15}\\
+\begin{list2}
+\item Android Application Hacking
+\item Uses and Misuses of Cryptography
+\item Advanced Wi-Fi Penetration Testing
+\item 0x7DF Mobile Application Bootcamp
 
-\section{\sc Extra Curriculars Computers}
-{\bf Android Developement }\\
-{\em Trend Phrase} \hfill {\bf  UI Class}
-{\em Stock Stalkers} \hfill {\bf Good idea bad Parse}
-{\em Friend Finder Yahoo’s Hack-U competition} \hfill {\bf Fall 2010} 
+\end{list2}
+\end{list1}
+
+
+\section{\sc Virtual}
+\begin{list1}
+\item [] {\bf Android Developement}
+\begin{description}
+\item Tophatter \hfill {\bf Android Java}
+\item Ericcson \hfill {\bf Multi-Client Shell Interface}
+\item Trend Phrase \hfill {\bf  UI Class}
+\item Stock Stalkers \hfill {\bf Good idea bad Parse}
+\item Friend Finder Yahoo’s Hack-U competition \hfill {\bf Fall 10}
+\end{description}
+\end{list1}
 %Currently developing a text based Android game.
 
-\section{\sc Extra Curriculars IRL}
 
-{\bf Chicago Marathon},\\
-{\em The Team to End AIDS} \hfill {\bf  Oct 9th, 2011 in 5:35:42}\\
-Raised ~\$1,700 for Chicago Aids Foundation. Completed my first
-marathon after eight months of self-directed training.
+\section{\sc Real}
 
+\begin{list1}
+\item [] Running
+\begin{description}
+  \item Chicago Half Marathon\hfill {\bf  Sep 24th, `17 in 2:29:17 }
+  \item Chicago Marathon,{\em  The Team to End AIDS} \hfill {\bf  Oct 9th, `11 in 5:35:42}
+% Raised ~\$1,700 for Chicago Aids Foundation. Completed my first
+% marathon after eight months of self-directed training.
+\end{description}
+\end{list1}
 
-\section{\sc Computer Skillz} 
+\section{\sc Buzz Words}
+\begin{multicols}{3}
+Languages
 \begin{list2}
-\item Languages:  C++, Perl, Pascal, some use of Unix shell scripts,
-\item Stacks: Envoy Reference?
-\item Operating Systems:  Unix/Linux, Windows
+\item C++
+\item Python
+\item Java
+\item Go
+\item Typescript
+\item Web Developement
+\item R
+\item Erlang
+\item Kotlin
+\item C\#
+\item Ruby
 \end{list2}
-
-{\bf C++}, MICH\\
-{\em TITLE} \hfill {\bf  WHEN}
-
-{\bf Java}, MICH+SF\\
-{\em Androidcontext} \hfill {\bf UnreleasedApps+ }
-
-{\bf Java/Typescript}, Microsoft+Ericsson\\
-{\em Mediastreaming } \hfill {\bf WHEN}
-
-{\bf {C\#}}, Microsoft+Ericsson\\
-{\em Landing Service} \hfill {\bf  FTE}
-
-\bf Erlang\\
-
-{\bf Ruby}, SF\\
-{\em never off rails} \hfill could learn but dont want to
-
-{\bf Consul}, GDC\\
-{\bf OpenStack}, GDC\\
-
-{\bf Azure}, Microsoft+Ericsson\\
-{\em Log Aggregation} \hfill {\bf internship}
-
-{\bf Kotlin currently learning}\\
-{\bf Go}\\
-
-\bf Agile Development\\
-\bf Scrum Master\\
-
+\columnbreak
+Envs
+\begin{list2}
+\item Consul
+\item linux
+\item Mac
+\item OpenStack
+\item Azure
+\end{list2}
+\columnbreak
+People Skills
+\begin{list2}
+\item Agile Development
+\item Scrum Master
+\end{list2}
+\end{multicols}
 
 \end{resume}
 \end{document}

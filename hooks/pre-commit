@@ -50,3 +50,5 @@ exec git diff-index --check --cached $against --
 
 make clean
 make
+
+diff .git/hooks/ hooks/
