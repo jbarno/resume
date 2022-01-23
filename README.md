@@ -1,6 +1,7 @@
 # Curriculum Vitae
 
-LaTeX source for the resume of ~Ross~ Justin Barnowski.
+LaTeX source for the [resume](https://github.com/jbarno/resume/blob/main/resume.pdf) of ~Ross~ Justin Barnowski.
+
 
 ## Attribution
 
