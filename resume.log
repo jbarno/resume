@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.9.5)  2 NOV 2025 08:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.9.5)  2 NOV 2025 08:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -387,7 +387,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--171
 Here is how much of TeX's memory you used:
  8043 strings out of 480247
  126157 string characters out of 5896152
- 427657 words of memory out of 5000000
+ 426657 words of memory out of 5000000
  25932 multiletter control sequences out of 15000+600000
  471322 words of font info for 35 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -399,7 +399,7 @@ Here is how much of TeX's memory you used:
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on resume.pdf (2 pages, 103578 bytes).
+Output written on resume.pdf (2 pages, 103551 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
